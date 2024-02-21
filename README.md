@@ -19,6 +19,7 @@ https://www.youtube.com/watch?v=92Zz5nnd41c&list=PLk51HrKSBQ8-jTgD0qgRp1vmQeVSJ5
 * Breadboard
 * Potentiometer
 * Encoder
+* Servo MG90s 2 
 * Arduino UNO R3
 * Jump wire
 
@@ -31,10 +32,39 @@ Go to the “catkin_ws” folder
 ```bash
 cd catkin_ws
 ```
-Clone my Robot_PR 
+Use the following command to create the folder name “src”.
+```bash
+mkdir src
+```
+Use the following command to construct files and folders that are the base construction in “catkin”
+```bash
+catkin_make
+```
+Go back to workspace with this command
+```bash
+cd ..
+and
+catkin_make
+```
+Clone my Robot_PR with this command
 ```bash
 git clone https://github.com/liza10263/project_PR.git
 ```
+Go to file akarapon64 package : 
+```bash
+cd src/akarapon64
+```
+Add permissions to execute GUI Python file
+```bash
+chmod +x projectgui.py
+```
+Launch a launch.file of akarapon64
+```bash
+roslaunch akarapon64 projectgui.launch
+```
+
+
 ### Circuit
+![Screenshot 2024-02-21 214815](https://github.com/liza10263/project_PR/assets/129593656/e2a4327b-fd09-4d0e-8325-83bb84385c57)
 
 
