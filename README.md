@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=C5deqtXrpgk
 ```bash
 https://www.youtube.com/watch?v=92Zz5nnd41c&list=PLk51HrKSBQ8-jTgD0qgRp1vmQeVSJ5SQC&index=2
 ```
-### STEP 3 Installation Python
+### STEP 3 Installation Python in ROS
 ```bash
 https://www.youtube.com/watch?v=w7v4CZt1po8
 ```
