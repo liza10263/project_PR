@@ -52,6 +52,12 @@ Clone my Robot_PR with this command
 ```bash
 git clone https://github.com/liza10263/project_PR.git
 ```
+Go back to workspace with this command
+```bash
+cd ..
+and
+catkin_make
+```
 Go to file akarapon64 package : 
 ```bash
 cd src/akarapon64
