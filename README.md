@@ -13,6 +13,7 @@ https://www.youtube.com/watch?v=92Zz5nnd41c&list=PLk51HrKSBQ8-jTgD0qgRp1vmQeVSJ5
 ## Software
 * Ubuntu
 * ROS
+* Python
 
 ## Hardware
 * Breadboard
