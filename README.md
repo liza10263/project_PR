@@ -48,6 +48,8 @@ cd ..
 and
 catkin_make
 ```
+Go to 
+
 Clone my Robot_PR with this command
 ```bash
 git clone https://github.com/liza10263/project_PR.git
@@ -68,7 +70,7 @@ chmod +x projectgui.py
 ```
 Launch a launch.file of akarapon64
 ```bash
-roslaunch akarapon64 projectgui.launch
+roslaunch akarapon64 projectgui.launch model:=' $(find robot_description)/urdf/robot.urdf '
 ```
 
 
