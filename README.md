@@ -60,7 +60,7 @@ catkin_make
 ```
 Go to file akarapon64 package : 
 ```bash
-cd src/akarapon64
+cd src/project_PR/src
 ```
 Add permissions to execute GUI Python file
 ```bash
