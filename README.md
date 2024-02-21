@@ -52,7 +52,7 @@ Clone my Robot_PR with this command
 ```bash
 git clone https://github.com/liza10263/project_PR.git
 ```
-Go back to workspace with this command
+Go back to workspace again with this command
 ```bash
 cd ..
 and
