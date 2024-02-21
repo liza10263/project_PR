@@ -1,6 +1,10 @@
 # project_PR
 
-เป็นมินิโปรเจคประจำภาควิชา RE60430 Selected Topic in Robotics and Automation Engineering 2 เป็นการสร้าง Robot Arm ที่ใช้ Gui ใน Ros ควบคุมการทำงานของ Arduino และ มี Urdf แสดงผลการทำงานตาม Robot Arm 
+### installation ubuntu 20.04
+
+```bash
+https://www.youtube.com/watch?v=C5deqtXrpgk
+```
 
 ## software
 ## Hardware
