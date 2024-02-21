@@ -56,7 +56,7 @@ Go back to workspace again with this command
 ```bash
 #to go catkin_ws
 cd .. 
-and
+
 catkin_make
 ```
 Go to file project_PR package : 
