@@ -11,11 +11,11 @@ https://www.youtube.com/watch?v=C5deqtXrpgk
 https://www.youtube.com/watch?v=92Zz5nnd41c&list=PLk51HrKSBQ8-jTgD0qgRp1vmQeVSJ5SQC&index=2
 ```
 ## Software
+* Ubuntu
+
+## Hardware
 * Breadboard
 * Potentiometer
 * Encoder
 * Arduino UNO R3
 * Jump wire
-
-## Hardware
-Bread
