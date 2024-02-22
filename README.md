@@ -80,4 +80,6 @@ roslaunch akarapon64 projectgui.launch model:=' $(find robot_description)/urdf/r
 
 ![Screenshot 2024-02-22 100707](https://github.com/liza10263/project_PR/assets/129593656/8f34ec49-8982-4203-89fe-42b504c36b83)
 
+### GUI display
+
 
