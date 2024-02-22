@@ -76,4 +76,8 @@ roslaunch akarapon64 projectgui.launch model:=' $(find robot_description)/urdf/r
 ### Circuit
 ![Screenshot 2024-02-21 214815](https://github.com/liza10263/project_PR/assets/129593656/e2a4327b-fd09-4d0e-8325-83bb84385c57)
 
+### Assembly
+
+![Screenshot 2024-02-22 100707](https://github.com/liza10263/project_PR/assets/129593656/8f34ec49-8982-4203-89fe-42b504c36b83)
+
 
