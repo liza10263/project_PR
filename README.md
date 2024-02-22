@@ -45,7 +45,7 @@ catkin_make
 Go back to workspace with this command
 ```bash
 cd 
-cd catkin_ws
+cd catkin_ws/src
 catkin_make
 ```
 Clone my Robot_PR with this command
