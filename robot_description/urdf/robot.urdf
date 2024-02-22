@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<robot name = "robot_arm">
+
+
+<!--base link-->
+<link name = "base_link">
+    <visual>
+    <geometry>
+       <mesh filename="package://robot_description/meshes/Part7.STL" scale="0.003 0.003 0.003"/>
+    </geometry>
+    <origin xyz="-0.12 0.07 0" rpy="1.57 0 0"/>
+    <material name="white">
+            <color rgba="1 1 1 1"/>
+    </material>
+    </visual>
+</link>
+
+<!-- link 1 -->
+<link name = "link1">
+    <visual>
+    <geometry>
+        <mesh filename="package://robot_description/meshes/Part9.STL" scale="0.003 0.003 0.003"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+
+    <collision>
+        <geometry>
+            <mesh filename="package://robot_description/meshes/Part9.STL" scale="0.003 0.003 0.003"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="0.001" ixy="0" ixz= "0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+</link>
+
+<!--joint1-->
+<joint name="joint1" type="prismatic">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0.09 -0.38 0.05" rpy="1.57 0 3.15"/>
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="0.2" effort="100" velocity="1"/>
+</joint>
+
+<!-- link 2 -->
+<link name = "link2">
+    <visual>
+    <geometry>
+        <mesh filename="package://robot_description/meshes/Part12.STL" scale="0.003 0.003 0.003"/>
+    </geometry>
+    <origin xyz="-0.06 0.09 -0.06" rpy="0 0 0"/>
+    <material name="black">
+            <color rgba="0 0 0 1"/>
+    </material>
+    </visual>
+
+    <collision>
+    <geometry>
+            <mesh filename="package://robot_description/meshes/Part12.STL" scale="0.003 0.003 0.003"/>
+    </geometry>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="0.001" ixy="0" ixz= "0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+</link>
+
+<!--joint2-->
+<joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0.1 0 0.06" rpy="0 0 0"/>
+    <axis xyz="0 1 0" />
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+</joint>
+
+
+
+</robot>
+
